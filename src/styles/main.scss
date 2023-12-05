@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import '../Components/Header/Header.scss';
+@import '../Components//Footer/Footer.scss';
+@import '../Pages/Home/Home.scss';
+@import '../Pages/AddProduct/AddProduct.scss';
+@import '../Components/Cards/Cards.scss';
+@import '../Components/Cart/Cart.scss';
+@import '../Components/Cart/ProductCart/ProductCart.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color-blue: #113946;
+    --color-beige: #BCA37F;
+    --color-coffee: #EAD7BB;
+    --color-coffeeLight: #FFF2D8;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--color-blue);
+}

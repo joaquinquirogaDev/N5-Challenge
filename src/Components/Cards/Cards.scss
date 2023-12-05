@@ -1,0 +1,45 @@
+.card_container{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.283);
+    padding: 10px;
+    background-color: var(--color-coffeeLight);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+
+    .card_header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_items{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 5px;
+        margin: 5px;
+    }
+
+    .card_button{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+        button{
+            width: 100%;
+            padding: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            background-color: var(--color-blue);
+            color: #fff;
+        }
+    }
+}
