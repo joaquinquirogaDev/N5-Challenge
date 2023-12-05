@@ -1,6 +1,6 @@
 import './Footer.scss'
 
-export const Footer = () => {
+export default function Footer(){
     return <footer className="Footer">
         <p> Developer - Joaquín Quiroga</p>
     </footer>

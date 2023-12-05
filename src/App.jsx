@@ -1,7 +1,7 @@
 import useCart from './Hooks/useCart'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './Pages/Home/Home'
-import { Footer } from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 import { Header } from './Components/Header/Header';
 import { AddProduct } from './Pages/AddProduct/AddProduct';
 
