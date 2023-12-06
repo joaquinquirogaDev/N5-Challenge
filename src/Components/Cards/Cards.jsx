@@ -5,7 +5,6 @@ export const Cards = ({ item }) => {
     const {addToCart} = useCart()
 
     const handleAdd = () => {
-        // item.amount === 0 ? 
         addToCart(item)
     }
     return <div className="card_container">
